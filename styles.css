@@ -391,7 +391,7 @@ main > section{
     /* TO DO: A link back to the top of a longer page is commonly included near the lower right-hand corner of the page and it will stay in that location as the screen width changes. Use the calc function to move this element down by 100% of the viewport height minus 85 pixels, and to the right by 100% of the viewport width minus 100 pixels */
     position: fixed;
     top: calc(100vh - 85px);
-    left: cal(100vh - 100px);
+    left: calc(100vh - 100px);
     background-color: var(--off-wht);
     border-radius: 1rem;
 }
